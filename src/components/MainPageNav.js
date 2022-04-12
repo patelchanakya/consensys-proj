@@ -3,7 +3,7 @@ import { Box, Button, Flex, Image, Link, Spacer, Text } from "@chakra-ui/react";
 import Discord from "../media/icons8-discord.gif";
 import Twitter from "../media/icons8-twitter.gif";
 
-const lastTicketAddress = "0x5BcAe88BE5540cB4CC80074EbbF0B75b207a0467";
+const lastTicketAddress = "0x4b752b8d98a9e16a867ddf629729698119f1bf94";
 
 function findMintsStyleHandler() {
   document.getElementById("claimtotalpot").style.color = "red";
@@ -42,7 +42,7 @@ const MainPageNav = ({ accounts, setAccounts }) => {
 
       <Flex justify="space-between" align="center" padding="0px 75px">
         <Link
-          href="https://www.etherscan.io"
+          href="https://ropsten.etherscan.io/address/0x4b752b8D98a9E16A867ddf629729698119f1bf94#code"
           target="_blank"
           textDecoration="none"
         >

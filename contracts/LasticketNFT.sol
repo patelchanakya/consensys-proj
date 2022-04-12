@@ -16,7 +16,7 @@ contract LasticketNFT is ERC721, Ownable {
     mapping(address => uint256) public walletMints;
 
     constructor() payable ERC721('LasticketNFT', 'ConsensysDevRel') {
-        maxSupply = 24;
+        maxSupply = 9;
         maxPerWallet = 2;
     }
 

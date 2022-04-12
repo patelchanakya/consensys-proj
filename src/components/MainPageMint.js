@@ -4,7 +4,7 @@ import { ethers, BigNumber } from "ethers";
 import LasticketNFT from "../LasticketNFT.json";
 import { Box, Button, Flex, Input, Text, Spacer } from "@chakra-ui/react";
 
-const lastTicketAddress = "0x5BcAe88BE5540cB4CC80074EbbF0B75b207a0467";
+const lastTicketAddress = "0x4b752b8d98a9e16a867ddf629729698119f1bf94";
 
 function validateWalletStyles() {
   document.getElementById("validatewallet").style.color = "red";
