@@ -41,5 +41,41 @@ body {
 .image-cont {
   display: flex;
   justify-content: center;
-  margin-top: 2%;
+}
+
+#aboutme {
+  animation: aboutme 1.2s infinite;
+  position: relative;
+}
+
+@keyframes aboutme {
+  0% {
+    opacity: 1;
+    border: 1px solid red;
+    border-radius: 5%;
+    background-color: yellow;
+
+    border-width: 3px;
+  }
+  49% {
+    opacity: 1;
+    border: 1px solid red;
+    border-radius: 5%;
+    background-color: yellow;
+
+    border-width: 3px;
+  }
+  50% {
+    opacity: 0;
+    border: 1px solid red;
+    border-radius: 5%;
+    background-color: yellow;
+    border-width: 3px;
+  }
+  100% {
+    opacity: 0;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    border-width: 3px;
+  }
 }
